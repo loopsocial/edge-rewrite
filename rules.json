@@ -1,0 +1,10 @@
+[
+    "^/$ /index.html [L,NC]",
+    "^/images/(.*) /images/$1 [L,NC]",
+    "^/css/(.*) /css/$1 [L,NC]",
+    "^/fonts/(.*) /fonts/$1 [L,NC]",
+    "^/js/(.*) /js/$1 [L,NC]",
+    "^/(.*)\.css$ /$1.css [L,NC]",
+    "^/(.*)\.html$ /$1.html [L,NC]",
+    "^/(.*)$ /$1.html [L,NC]"
+]
